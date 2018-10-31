@@ -12,6 +12,24 @@
 */
 
 Route::get('/', function () {
+    return view('welcome');
+});
+
+
+
+Route::get('admin', function () {
+    return view('admin.dashboard');
+});
+
+Route::get('login', function () {
+    return view('auth.login');
+});
+
+Route::get('register', function () {
+    return view('auth.register');
+});
+
+Route::get('/portal', function () {
     return view('portal.dashboard');
 });
 
