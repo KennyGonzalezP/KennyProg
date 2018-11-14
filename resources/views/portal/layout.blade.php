@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>INNOVA</title>
+<title>Kenny's Construction C.A</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -16,7 +17,7 @@
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="portal/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="portal/fonts/font-awesome/css/font-awesome.css">
 
 <!-- Stylesheet
     ================================================== -->
@@ -26,12 +27,7 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
@@ -41,18 +37,19 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top">Innova</a>
-      <div class="phone"><span>Call Today</span>320-123-4321</div>
+      <a class="navbar-brand page-scroll" href="#page-top">KC C.A</a>
+      <div class="phone"><span>Llamanos</span>444-444-4444</div>
     </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" class="page-scroll">About</a></li>
-        <li><a href="#services" class="page-scroll">Services</a></li>
-        <li><a href="#portfolio" class="page-scroll">Projects</a></li>
-        <li><a href="#testimonials" class="page-scroll">Testimonials</a></li>
-        <li><a href="#contact" class="page-scroll">Contact</a></li>
+        <li><a href="#about" class="page-scroll">Nosotros</a></li>
+        <li><a href="#services" class="page-scroll">Servicios</a></li>
+        <li><a href="#portfolio" class="page-scroll">Proyectos</a></li>
+        <li><a href="#testimonials" class="page-scroll">Opiniones</a></li>
+        <li><a href="#contact" class="page-scroll">Contactanos</a></li>
+        <li><a href="admin" class="page-scroll">Logearse</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -65,27 +62,24 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 intro-text">
-            <h1>Home Construction<br>
-              & Remodeling</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
-            <a href="#about" class="btn btn-custom btn-lg page-scroll">Learn More</a> </div>
+            <h1>Construcción de Hogares<br>
+              & Remodelación</h1>
+            <p>Empresa dedicada a la construcción y remodelacion de casas más eficiente y rápida, que se ajusta a su presupuesto.</p>
+            <a href="#about" class="btn btn-custom btn-lg page-scroll">Leer Más</a> </div>
         </div>
       </div>
     </div>
   </div>
 </header>
-<section class="content">
-  
-</section>
 <!-- Get Touch Section -->
 <div id="get-touch">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6 col-md-offset-1">
-        <h3>Cost for your home renovation project</h3>
-        <p>Get started today and complete our form to request your free estimate</p>
+        <h3>Costos paras la renovación de su Hogar</h3>
+        <p>Inicie ahora escribiendonos en nuestro formulario para pedir une estimado acerca de lo que pide. Totalmente Gratis este servicio.</p>
       </div>
-      <div class="col-xs-12 col-md-4 text-center"><a href="#contact" class="btn btn-custom btn-lg page-scroll">Free Estimate</a></div>
+      <div class="col-xs-12 col-md-4 text-center"><a href="#contact" class="btn btn-custom btn-lg page-scroll">Escribenos</a></div>
     </div>
   </div>
 </div>
@@ -96,24 +90,24 @@
       <div class="col-xs-12 col-md-6"> <img src="portal/img/about.jpg" class="portal/img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <h2>Who We Are</h2>
+          <h2>¿Quienes Somos?</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <h3>Why Choose Us?</h3>
+          <h3>¿Porque elegirnos?</h3>
           <div class="list-style">
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <ul>
-                <li>Years of Experience</li>
-                <li>Fully Insured</li>
-                <li>Cost Control Experts</li>
-                <li>100% Satisfaction Guarantee</li>
+                <li>Años de Experiencias</li>
+                <li>Libre de Daños</li>
+                <li>Expertos en reducción de gastos</li>
+                <li>100% Garantizada su satisfaccion</li>
               </ul>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <ul>
-                <li>Free Consultation</li>
-                <li>Satisfied Customers</li>
-                <li>Project Management</li>
-                <li>Affordable Pricing</li>
+                <li>Consultas Gratuitas</li>
+                <li>Clientes Satisfechos</li>
+                <li>Manejo de Proyectos</li>
+                <li>Precios Accesibles</li>
               </ul>
             </div>
           </div>
@@ -126,27 +120,27 @@
 <div id="services">
   <div class="container">
     <div class="section-title">
-      <h2>Our Services</h2>
+      <h2>Nuestros Servicios</h2>
     </div>
     <div class="row">
       <div class="col-md-4">
         <div class="service-media"> <img src="portal/img/services/service-1.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>New Home Construction</h3>
+          <h3>Construcción de una nueva casa</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="service-media"> <img src="portal/img/services/service-2.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>Home Additions</h3>
+          <h3>Nuevas Habitaciones</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="service-media"> <img src="portal/img/services/service-3.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>Bathroom Remodels</h3>
+          <h3>Remodelacion de Baños</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
         </div>
       </div>
@@ -155,21 +149,21 @@
       <div class="col-md-4">
         <div class="service-media"> <img src="portal/img/services/service-4.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>Kitchen Remodels</h3>
+          <h3>Remodelacion de Cocinas</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="service-media"> <img src="portal/img/services/service-5.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>Windows & Doors</h3>
+          <h3>Ventanas y Puertas</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="service-media"> <img src="portal/img/services/service-6.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>Decks & Porches</h3>
+          <h3>Asoteas y Miradores</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
         </div>
       </div>
@@ -180,87 +174,87 @@
 <div id="portfolio">
   <div class="container">
     <div class="section-title">
-      <h2>Our Works</h2>
+      <h2>Nuestros Trabajos</h2>
     </div>
     <div class="row">
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/01-large.jpg" title="Nuevo Garage" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
+                <h4>Garage</h4>
               </div>
               <img src="portal/img/portfolio/01-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/02-large.jpg" title="Remodelacion de Cocina" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Adipiscing Elit</h4>
+                <h4>Cocina</h4>
               </div>
               <img src="portal/img/portfolio/02-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/03-large.jpg" title="Nueva Cocina" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
+                <h4>Cocina</h4>
               </div>
               <img src="portal/img/portfolio/03-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/04-large.jpg" title="Reparación de Techo" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
+                <h4>Techos</h4>
               </div>
               <img src="portal/img/portfolio/04-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/05-large.jpg" title="Nuevas Ventanas y Puertas" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Adipiscing Elit</h4>
+                <h4>Nuevas Ventanas y Puertas</h4>
               </div>
               <img src="portal/img/portfolio/05-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/06-large.jpg" title="Casa Nueva" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Dolor Sit</h4>
+                <h4>Casa Nueva</h4>
               </div>
               <img src="portal/img/portfolio/06-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/07-large.jpg" title="Remodelacion de Baño" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Dolor Sit</h4>
+                <h4>Remodelacion de Baño</h4>
               </div>
               <img src="portal/img/portfolio/07-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/08-large.jpg" title="Remodelacion de cocina" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Lorem Ipsum</h4>
+                <h4>Cocina</h4>
               </div>
               <img src="portal/img/portfolio/08-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-4">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="portal/img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="portal/img/portfolio/09-large.jpg" title="Reparación de Techo" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Adipiscing Elit</h4>
+                <h4>Reparación de Techo</h4>
               </div>
               <img src="portal/img/portfolio/09-small.jpg" class="portal/img-responsive" alt="Project Title"> </a> </div>
           </div>
@@ -273,7 +267,7 @@
 <div id="testimonials">
   <div class="container">
     <div class="section-title">
-      <h2>Testimonials</h2>
+      <h2>Testimonios</h2>
     </div>
     <div class="row">
       <div class="col-md-4">
@@ -281,7 +275,7 @@
           <div class="testimonial-image"> <img src="portal/img/testimonials/01.jpg" alt=""> </div>
           <div class="testimonial-content">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-            <div class="testimonial-meta"> - John Doe </div>
+            <div class="testimonial-meta"> - John Casas </div>
           </div>
         </div>
       </div>
@@ -290,7 +284,7 @@
           <div class="testimonial-image"> <img src="portal/img/testimonials/02.jpg" alt=""> </div>
           <div class="testimonial-content">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."</p>
-            <div class="testimonial-meta"> - Johnathan Doe </div>
+            <div class="testimonial-meta"> - Nathan Clark </div>
           </div>
         </div>
       </div>
@@ -299,7 +293,7 @@
           <div class="testimonial-image"> <img src="portal/img/testimonials/03.jpg" alt=""> </div>
           <div class="testimonial-content">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-            <div class="testimonial-meta"> - John Doe </div>
+            <div class="testimonial-meta"> - Caitlin Black </div>
           </div>
         </div>
       </div>
@@ -309,7 +303,7 @@
           <div class="testimonial-image"> <img src="portal/img/testimonials/04.jpg" alt=""> </div>
           <div class="testimonial-content">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-            <div class="testimonial-meta"> - Johnathan Doe </div>
+            <div class="testimonial-meta"> - Jason Born </div>
           </div>
         </div>
       </div>
@@ -318,7 +312,7 @@
           <div class="testimonial-image"> <img src="portal/img/testimonials/05.jpg" alt=""> </div>
           <div class="testimonial-content">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-            <div class="testimonial-meta"> - John Doe </div>
+            <div class="testimonial-meta"> - Steffany Jhonson </div>
           </div>
         </div>
       </div>
@@ -327,7 +321,7 @@
           <div class="testimonial-image"> <img src="portal/img/testimonials/06.jpg" alt=""> </div>
           <div class="testimonial-content">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."</p>
-            <div class="testimonial-meta"> - Johnathan Doe </div>
+            <div class="testimonial-meta"> - Stella Smith </div>
           </div>
         </div>
       </div>
@@ -340,14 +334,14 @@
     <div class="col-md-8">
       <div class="row">
         <div class="section-title">
-          <h2>Get In Touch</h2>
-          <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+          <h2>Contáctanos</h2>
+          <p>Porfavor rellena todo el formulario para enviar el e-mail y nosotros le responderémos los antes posible.</p>
         </div>
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <input type="text" id="name" class="form-control" placeholder="Nombre" required="required">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -359,22 +353,22 @@
             </div>
           </div>
           <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Ingrese aquí su Mensaje" required></textarea>
             <p class="help-block text-danger"></p>
           </div>
           <div id="success"></div>
-          <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+          <button type="submit" class="btn btn-custom btn-lg">Enviar Mensaje</button>
         </form>
       </div>
     </div>
     <div class="col-md-3 col-md-offset-1 contact-info">
       <div class="contact-item">
-        <h4>Contact Info</h4>
-        <p><span>Address</span>4321 California St,<br>
+        <h4>Información de Contacto</h4>
+        <p><span>Dirección</span>4321 California St,<br>
           San Francisco, CA 12345</p>
       </div>
       <div class="contact-item">
-        <p><span>Phone</span> +1 123 456 1234</p>
+        <p><span>Telefono</span> +1 444 444 4444</p>
       </div>
       <div class="contact-item">
         <p><span>Email</span> info@company.com</p>
@@ -397,7 +391,7 @@
 <!-- Footer Section -->
 <div id="footer">
   <div class="container text-center">
-    <p>&copy; 2017 INNOVA. Design by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+    <p>&copy; 2018 Kenny's Constructión C.A. Design by <a href="http://www.KennyDev.com" rel="nofollow">KennyDev</a></p>
   </div>
 </div>
 <script type="text/javascript" src="portal/js/jquery.1.11.1.js"></script> 

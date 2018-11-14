@@ -1,7 +1,6 @@
 @extends('admin.layout')
 
 @section ('content')
-<?
-	echo '{{evento()}}';
-	?>
+
+	<h1>Index</h1>
 @stop
