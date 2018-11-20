@@ -1,5 +1,5 @@
 <?php
-    date_default_timezone_set('America/Mexico_City');
+    date_default_timezone_set('America/Caracas');
     function evento()
     {
         time();
@@ -7,6 +7,7 @@
         $tomorrow = strtotime('tomorrow 12:00');
         $time_now = time();
         $timeLeft = ($time_now > $today ? $tomorrow : $today) - $time_now;
-    return strftime("%H Horas, %M minutos, %S segundos", $timeLeft);
+        $imprimir = strftime("%H Horas, %M minutos, %S segundos", $timeLeft);
+    return $imprimir;
     }   
 ?>

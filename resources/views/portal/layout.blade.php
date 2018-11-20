@@ -49,7 +49,7 @@
         <li><a href="#portfolio" class="page-scroll">Proyectos</a></li>
         <li><a href="#testimonials" class="page-scroll">Opiniones</a></li>
         <li><a href="#contact" class="page-scroll">Contactanos</a></li>
-        <li><a href="admin" class="page-scroll">Logearse</a></li>
+        <li><a href="admin" class="page-scroll">adminLTE</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 

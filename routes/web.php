@@ -1,49 +1,27 @@
 <?php
 
-Route::prefix('/')->group ( function () {
-		Auth::routes();
-		Route::get('/', function () { return view ('portal.dashboard'); });
-});
-
-
-Route::get('admin', function () {
-	Auth::routes();
-    return view('admin.dashboard');
-});
-
-Route::get('registrar', function (){
-	Auth::routes();
-	return view('admin.registrar');
-});
-
-Route::prefix('/')->group ( function () {
-		Auth::routes();
-		Route::get('/', function () { return view ('portal.dashboard'); });
-});
-
-Route::resource('Clientes','ClientesController');
-Route::get('Clientes/{id}/destroy', [
-	'uses' => 'ClientesController@destroy',
-	'as'   => 'admin.Cliente.destroy'
-]);
-
-
-
-/*
-Route::get('login', function () {
-    return view('auth.login');
-});
-
-Route::get('register', function () {
-    return view('auth.register');
-});
-
-Route::get('inicio', function () {
-    return view('portal.dashboard');
+Route::get('/', function () {
+    return view('welcome');
 });
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
-*/
+Route::resource('personals', 'PersonalController');
+
+
+// Ruta de Inicio de portal:
+
+Route::get('inicio',function (){
+	return view('portal.dashboard');
+})->name('inicio');
+Auth::routes();
+
+// Ruta de Admin LTE
+
+Route::get('admin',function (){
+	return view('admin.dashboard');
+});
+
+
+?>

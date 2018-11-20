@@ -13,8 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                <p> <strong> Felicidades!! Te haz logeado exitosamente! </strong></p>
+                <a href="{{ route('inicio')}}" class="btn btn-primary">Ir al portal</a>
                 </div>
             </div>
         </div>
