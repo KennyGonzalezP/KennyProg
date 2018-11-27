@@ -47,8 +47,8 @@ class PersonalController extends Controller
     public function update(PersonalRequest $request, $id)
     {
     	$personal = Personal::find($id);
-        $personal->nombre = $request->telefono;
-        $personal->email = $request->telefono;
+        $personal->nombre = $request->nombre;
+        $personal->email = $request->email;
         $personal->telefono = $request->telefono;
 
         $personal->save();

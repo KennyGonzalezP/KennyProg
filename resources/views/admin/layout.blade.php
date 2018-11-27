@@ -106,7 +106,7 @@
           <ul class="treeview-menu">
            
             <li><a href="{{ route('personals.index')}}"><i class="fa fa-circle-o"></i>Listado</a></li>
-            <li><a href="{{ route('personals.create')}}e"><i class="fa fa-circle-o"></i>Registrar</a></li>
+            <li><a href="{{ route('personals.create')}}"><i class="fa fa-circle-o"></i>Registrar</a></li>
           </ul>
         </li>             
         <!-- Hasta aqui el personal de trabajo -->
@@ -122,7 +122,7 @@
           <ul class="treeview-menu">
            
             <li><a href="{{ route('houseclients.index')}}"><i class="fa fa-circle-o"></i>Listado</a></li>
-            <li><a href="{{ route('houseclients.create')}}e"><i class="fa fa-circle-o"></i>Registrar</a></li>
+            <li><a href="{{ route('houseclients.create')}}"><i class="fa fa-circle-o"></i>Registrar</a></li>
           </ul>
         </li>
         <!-- Hasta aqui Clientes -->
