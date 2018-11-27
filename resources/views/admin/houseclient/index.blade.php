@@ -5,6 +5,7 @@
 
 	 <h1><strong>Personal de Trabajo</strong></h1>
    <a href="{{ route('houseclients.create')}}" class="btn btn-primary pull-right">Registrar</a><br> <br>
+   <a href="{{ route('HouseClient.pdf') }}" class="btn btn-sm btn-primary pull-right"> Descargar en PDF</a>
 
    @include('admin.houseclient.fragment.info')
     
@@ -29,6 +30,7 @@
             <td> <strong> {{ $cliente->nombre }} </strong></td>
             <td>{{ $cliente->email }}</td>
             <td>{{ $cliente->telefono }}</td>
+            <td>{{ $cliente->descripcion }}</td>
             <td><a href="{{ route('houseclients.show', $cliente->id)}}" class="btn btn-primary"> Ver </a></td>
             <td><a href="{{ route('houseclients.edit', $cliente->id)}}" class="btn btn-primary"> Modificar </a></td>
             <td> 
@@ -42,8 +44,13 @@
         @endforeach
       </tbody>
     </table>
+
+
+
     {!! $houseclients->render() !!}
 
+
+    
     </div>
           <!-- BAR CHART -->
           <div class="box box-success">

@@ -5,6 +5,7 @@
 
 	 <h1><strong>Personal de Trabajo</strong></h1>
    <a href="{{ route('personals.create')}}" class="btn btn-primary pull-right">Registrar</a><br> <br>
+   <a href="{{ route('personals.pdf') }}" class="btn btn-sm btn-primary pull-right"> Descargar en PDF</a>
 
    @include('admin.personal.fragment.info')
     

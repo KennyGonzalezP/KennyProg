@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Personal;
 use App\Http\Requests\PersonalRequest;
+use Barryvdh\DomPDF\Facade as PDF;
 
 
 class PersonalController extends Controller
@@ -61,5 +62,13 @@ class PersonalController extends Controller
     	$personal->delete();
 
     	return back()->with('info', 'La persona ha sido eliminada');
+    }
+
+    public function pdf()
+    {
+        $personals = Personal::all();
+        $pdf = PDF::loadView('admin.personal.pdf.index', compact('personals'));
+
+        return $pdf->stream();
     }
 }

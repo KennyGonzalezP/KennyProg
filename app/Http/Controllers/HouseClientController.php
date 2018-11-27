@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\HouseClient;
 use App\Http\Requests\HouseClientRequest;
+use Barryvdh\DomPDF\Facade as PDF;
 
 
 class HouseClientController extends Controller
@@ -63,5 +64,13 @@ class HouseClientController extends Controller
     	$houseclient->delete();
 
     	return back()->with('info', 'La persona ha sido eliminada');
+    }
+
+    public function pdf()
+    {
+        $houseclients = HouseClient::all();
+        $pdf = PDF::loadView('admin.houseclient.pdf.index', compact('houseclients'));
+
+        return $pdf->stream();
     }
 }

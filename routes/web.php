@@ -11,6 +11,12 @@ Route::resource('personals', 'PersonalController');
 Auth::routes();
 Route::resource('houseclients', 'HouseClientController');
 
+Auth::routes();
+
+// Rutas de PDF
+Route::get('descargar-HouseClient', 'HouseClientController@pdf')->name('HouseClient.pdf');
+Route::get('descargar-Personal', 'PersonalController@pdf')->name('personals.pdf');
+
 // Ruta de Inicio de portal:
 
 Route::get('inicio',function (){
