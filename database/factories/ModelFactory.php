@@ -32,3 +32,14 @@ $factory->define(App\Personal::class, function (Faker\Generator $faker) {
         'telefono' => $faker->tollFreePhoneNumber,       
     ];
 });
+
+$factory->define(App\HouseClient::class, function (Faker\Generator $faker) {
+    static $password;
+
+    return [
+        'nombre' => $faker->name,
+        'email' => $faker->unique()->safeEmail,
+        'telefono' => $faker->tollFreePhoneNumber, 
+        'descripcion' => $faker->text(80),      
+    ];
+});

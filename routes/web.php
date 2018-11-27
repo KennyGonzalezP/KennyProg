@@ -8,7 +8,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('personals', 'PersonalController');
-
+Auth::routes();
+Route::resource('houseclients', 'HouseClientController');
 
 // Ruta de Inicio de portal:
 

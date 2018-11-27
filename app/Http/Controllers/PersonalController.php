@@ -30,8 +30,8 @@ class PersonalController extends Controller
     {
     	$personal = new Personal;
 
-        $personal->nombre = $request->telefono;
-        $personal->email = $request->telefono;
+        $personal->nombre = $request->nombre;
+        $personal->email = $request->email;
         $personal->telefono = $request->telefono;
 
         $personal->save();

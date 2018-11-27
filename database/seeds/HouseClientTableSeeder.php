@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
-class DatabaseSeeder extends Seeder
+use App\HouseClient;
+class HouseClientTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         $this->call(HouseClientTableSeeder::class);
+        factory(HouseClient::class, 40)->create();
     }
 }
